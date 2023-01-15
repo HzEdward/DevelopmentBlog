@@ -187,6 +187,11 @@ body {
     margin: 0 0.833333333333333%;
   }
 }
+@media screen and (min-width: 768px) {
+  #main {
+    float: right;
+  }
+}
 .article-date,
 .article-category-link,
 .archive-year,
@@ -344,7 +349,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("images/banner_sky.jpg") center #000;
+  background: url("images/task.jpg") center #000;
   background-size: cover;
   z-index: -1;
 }
@@ -360,8 +365,8 @@ body {
 #subtitle {
   text-decoration: none;
   color: #fff;
-  font-weight: 300;
-  text-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  font-weight: 800;
+  text-shadow: 1px 1px 2px #f00, 0 0 1em #f00, 0 0 0.2em #f00;
 }
 #logo {
   font-size: 50px;
@@ -383,10 +388,9 @@ body {
 .nav-icon,
 .main-nav-link {
   float: left;
-  color: #fff;
-  opacity: 0.8;
+  color: #000;
+  opacity: 1;
   text-decoration: none;
-  text-shadow: 0 1px rgba(0,0,0,0.2);
   -webkit-transition: opacity 0.2s;
   -moz-transition: opacity 0.2s;
   -ms-transition: opacity 0.2s;
@@ -474,7 +478,7 @@ body {
 .search-form-input {
   border: none;
   background: none;
-  color: #555;
+  color: #000;
   width: 100%;
   font: 13px -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   outline: none;
@@ -535,7 +539,7 @@ body {
   text-decoration: none;
   font-size: 2em;
   font-weight: bold;
-  color: #555;
+  color: #000;
   line-height: 1.1em;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
@@ -546,7 +550,7 @@ a.article-title:hover {
   color: #258fb8;
 }
 .article-entry {
-  color: #555;
+  color: #000;
   padding: 0 20px;
 }
 .article-entry:before,
@@ -703,7 +707,7 @@ a.article-title:hover {
   text-decoration: none;
 }
 .article-footer a:hover {
-  color: #555;
+  color: #000;
 }
 .article-tag-list-item {
   float: left;
@@ -772,7 +776,7 @@ a.article-title:hover {
   display: block;
 }
 .article-nav-link-wrap:hover {
-  color: #555;
+  color: #000;
 }
 @media screen and (min-width: 768px) {
   .article-nav-link-wrap {
@@ -831,7 +835,7 @@ a.article-title:hover {
   box-sizing: border-box;
   font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   padding: 0 15px;
-  color: #555;
+  color: #000;
   outline: none;
   border: 1px solid #ddd;
   border-radius: 3px 3px 0 0;
@@ -992,7 +996,7 @@ a.article-title:hover {
 .archive-article-title {
   text-decoration: none;
   font-weight: bold;
-  color: #555;
+  color: #000;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
   -ms-transition: color 0.2s;
@@ -1061,7 +1065,7 @@ a.article-title:hover {
   }
 }
 #page-nav .current {
-  color: #555;
+  color: #000;
   font-weight: bold;
 }
 #page-nav .space {
@@ -1286,7 +1290,7 @@ pre .javascript .function {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #555;
+  color: #000;
   margin-bottom: 20px;
 }
 .page-type-content {
@@ -1295,7 +1299,7 @@ pre .javascript .function {
 }
 .category-list-link {
   text-decoration: none;
-  color: #555;
+  color: #000;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
   -ms-transition: color 0.2s;
@@ -1311,7 +1315,7 @@ pre .javascript .function {
 }
 .tag-list-link {
   text-decoration: none;
-  color: #555;
+  color: #000;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
   -ms-transition: color 0.2s;
